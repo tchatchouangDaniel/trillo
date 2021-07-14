@@ -1,0 +1,44 @@
+.user-nav {
+  display: flex;
+  align-items: center;
+
+  &__icon-box {
+    display: flex;
+    &:not(:first-child) {
+      margin-left: 1rem;
+    }
+  }
+
+  &__icon {
+    height: 2.25rem;
+    width: 2.25rem;
+  }
+
+  &__notification {
+    align-items: center;
+    justify-content: center;
+    font-size: 1rem;
+    color: #fff;
+    display: flex;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-radius: 50%;
+    background-color: var(--color-primary);
+    transform: translate(-10px, -10px);
+  }
+
+  &__user {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+  }
+
+  &__user-photo {
+    height: 3.75rem;
+    border-radius: 50%;
+  }
+
+  &__user-name {
+    margin-left: 1rem;
+  }
+}

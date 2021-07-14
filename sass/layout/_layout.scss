@@ -1,0 +1,26 @@
+.container {
+  background-color: var(--color-grey-light-2);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 2rem;
+  background-color: #fff;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  background-color: var(--color-grey-dark-1);
+  flex: 0 0 18%;
+  color: #fff;
+}
+
+.hotel-view {
+  background-color: #fff;
+  flex: 1;
+}
