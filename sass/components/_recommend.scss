@@ -1,0 +1,28 @@
+.recommend {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  padding-top: 4rem;
+  border-top: 1px solid rgb(199, 199, 199);
+  justify-content: space-between;
+  &__count {
+    flex: 0 0 60%;
+    margin: 0 !important;
+    display: block;
+  }
+  &__friends {
+    display: flex;
+    align-items: center;
+    flex: 0;
+  }
+
+  &__photos {
+    height: 5rem;
+    border-radius: 50%;
+    display: inline-block;
+    border: 2px solid var(--color-grey-light-3);
+    &:not(:last-child) {
+      margin-right: -1.4rem;
+    }
+  }
+}

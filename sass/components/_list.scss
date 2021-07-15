@@ -1,0 +1,16 @@
+.list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 12rem;
+  padding: 3rem 0;
+  border-top: 1px solid rgb(199, 199, 199);
+
+  &__icon {
+    height: 1.4rem;
+    width: 1.4rem;
+    margin-right: 1rem;
+    fill: var(--color-primary);
+  }
+}
