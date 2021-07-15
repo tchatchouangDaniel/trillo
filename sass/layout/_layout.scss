@@ -8,6 +8,7 @@
   align-items: center;
   padding: 2rem 2rem;
   background-color: #fff;
+  max-height: 8vh;
 }
 
 .content {
@@ -18,6 +19,26 @@
   background-color: var(--color-grey-dark-1);
   flex: 0 0 18%;
   color: #fff;
+  height: calc(92vh - 2.04rem);
+  overflow: hidden;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.legal {
+  display: inline-block;
+  padding: 3rem 2rem;
+  color: var(--color-grey-dark-2);
+  text-align: center;
+
+  font-size: 1.3rem;
 }
 
 .hotel-view {
